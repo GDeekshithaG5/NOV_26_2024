@@ -1,0 +1,23 @@
+'''
+x=20
+print(x/0)
+
+OUTPUT:
+ print(x/0)
+          ~^~
+ZeroDivisionError: division by zero
+'''
+
+Now we have to use try block:
+try:
+    x=20
+    print(x/0)
+
+except ZeroDivisionError:
+    print("numerator can not divided by zero")
+
+else:
+    print("due to run time error,program might cause some problem")
+
+finally:
+    print("U have successfully complected transaction:")
