@@ -1,0 +1,21 @@
+Exception handling:
+--------------------------------------------------------------------
+what is exception:
+       run time error or bug or defect
+       it can be occur due to software or hardware
+-----------------------------------------------------------------
+Types of errors:
+1)Syntactical Errors:
+      These are errors raised dur to grammatical mistakes takes place in specific programming language.
+
+2)Runtime Errors/Sematic Errors/Dynamic Errors:
+       --These errors occur due to logical statements written in programming.
+       --In order to handle runtime errors we have below statements:
+       Try:
+          try statements is allowed to define executable statements.
+
+       Except:
+             except statements will catch if any runtime errors occurred during try block execute statements.
+
+       Finally:
+               finally statement will execute its body of instructions irrespective of exception occurred.
