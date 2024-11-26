@@ -1,0 +1,28 @@
+'''
+import pymysql
+try:
+    x=20
+    print(x/0)
+
+except ZeroDivisionError:
+    print("numerator can not divided by zero")
+
+else:
+    print("due to run time error,program might cause some problem")
+
+finally:
+    print("U have successfully complected transaction:")
+'''
+
+
+import pymysql
+try:
+    query="CREATE DATABASE AMAZON1"
+    con=pymysql.connect(host="localhost",user="root",password="20WH1A05G5")
+    cur=con.cursor()#enable the access data globally or concurrently
+    cur.execute(query)
+    con.commit()
+    print("Database created successfully")
+    con.close()
+except:
+    print("Database not created due to runtime errors")
