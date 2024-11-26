@@ -1,0 +1,11 @@
+#SYNTAX ERROR:
+x=10
+if(x>20)
+    print(" x is greater")
+else:
+    print("x is lessor")
+
+OUTPUT:
+ if(x>20)
+            ^
+SyntaxError: expected ':'
